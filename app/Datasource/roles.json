@@ -1,27 +1,28 @@
 [
   {
-    "Id": 1,
-    "Name": "System Administrator",
-    "Parent": 0
+    "id": 1,
+    "name": "System Administrator",
+    "parent": 0
   },
   {
-    "Id": 2,
-    "Name": "Location Manager",
-    "Parent": 1
+    "id": 2,
+    "name": "Location Manager",
+    "parent": 1
+  },
+
+  {
+    "id": 4,
+    "name": "Employee",
+    "parent": 3
   },
   {
-    "Id": 3,
-    "Name": "Supervisor",
-    "Parent": 2
+    "id": 5,
+    "name": "Trainer",
+    "parent": 3
   },
   {
-    "Id": 4,
-    "Name": "Employee",
-    "Parent": 3
-  },
-  {
-    "Id": 5,
-    "Name": "Trainer",
-    "Parent": 3
+    "id": 3,
+    "name": "Supervisor",
+    "parent": 2
   }
 ]

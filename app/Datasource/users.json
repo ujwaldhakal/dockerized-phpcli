@@ -1,27 +1,27 @@
 [
   {
-    "Id": 1,
-    "Name": "Adam Admin",
-    "Role": 1
+    "id": 1,
+    "name": "Adam Admin",
+    "role": 1
   },
   {
-    "Id": 2,
-    "Name": "Emily Employee",
-    "Role": 4
+    "id": 2,
+    "name": "Emily Employee",
+    "role": 4
   },
   {
-    "Id": 3,
-    "Name": "Sam Supervisor",
-    "Role": 3
+    "id": 4,
+    "name": "Mary Manager",
+    "role": 2
   },
   {
-    "Id": 4,
-    "Name": "Mary Manager",
-    "Role": 2
+    "id": 5,
+    "name": "Steve Trainer",
+    "role": 5
   },
   {
-    "Id": 5,
-    "Name": "Steve Trainer",
-    "Role": 5
+    "id": 3,
+    "name": "Sam Supervisor",
+    "role": 3
   }
 ]
