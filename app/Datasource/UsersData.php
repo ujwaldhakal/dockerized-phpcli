@@ -7,12 +7,14 @@ use App\Exceptions\DataNotLoaded;
 
 class UsersData implements UsersDataInterface
 {
+    const FILENAME = 'app/Datasource/users.json';
+
     private function getFileName(): string
     {
-        return "app/Datasource/users.json";
+        return self::FILENAME;
     }
 
-    public function getAll(): array
+    public function get(): array
     {
         try {
 
